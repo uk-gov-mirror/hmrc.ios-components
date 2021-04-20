@@ -44,9 +44,9 @@ open class SemanticColors {
     open var switchTintSelected = UIColor.useLightModeColors ? UIColor(hexString: "#1862A2") : UIColor(hexString: "#6DD4D6")
     open var textInputBorder = UIColor.Named.grey1.raw
     open var textInputLeftViewTint = UIColor.Named.grey1.raw
-    open var transparentButtonHighlightedBackground = UIColor.useLightModeColors ? UIColor(hexString: "#004C29") : .clear
+    open var transparentButtonHighlightedBackground = UIColor.useLightModeColors ? UIColor(hexString: "#ECECEC") : UIColor(hexString: "#121212")
     open var secondaryButtonText = UIColor.Named.blue.raw
     open var secondaryButtonBackground = UIColor.clear
-    open var secondaryButtonHighlightedBackground = UIColor.clear
+    open var secondaryButtonHighlightedBackground = UIColor.useLightModeColors ? UIColor(hexString: "#ECECEC") : UIColor(hexString: "#121212")
     open var whiteBackground = UIColor.useLightModeColors ? UIColor.Named.white.raw : UIColor(hexString: "#0A0B0B")
 }
