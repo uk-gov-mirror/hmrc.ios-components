@@ -48,6 +48,6 @@ open class SemanticColors {
     open var secondaryButtonText = UIColor.Named.blue.raw
     open var secondaryButtonBackground = UIColor.clear
 //    open var secondaryButtonHighlightedBackground = UIColor.useLightModeColors ? UIColor(hexString: "#ECECEC") : UIColor(hexString: "#121212")
-    open var secondaryButtonHighlightedBackground = UIColor.Named.blue.raw
+    open var secondaryButtonHighlightedBackground = UIColor.Named.blue.raw.withAlphaComponent(0.12)
     open var whiteBackground = UIColor.useLightModeColors ? UIColor.Named.white.raw : UIColor.Named.grey3.raw
 }
