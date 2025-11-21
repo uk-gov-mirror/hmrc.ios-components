@@ -274,9 +274,9 @@ extension Components.Molecules {
             validationErrorAndCharCountStackView.addArrangedSubview(charCountLabel)
 
             stackView.addArrangedSubview(titleLabel)
-            stackView.addArrangedSubview(borderView)
             stackView.addArrangedSubview(validationErrorAndCharCountStackView)
-
+            stackView.addArrangedSubview(borderView)
+            
             NSLayoutConstraint.activate([
                 textRowStack.topAnchor.constraint(equalTo: borderView.topAnchor),
                 textRowStack.bottomAnchor.constraint(equalTo: borderView.bottomAnchor),
