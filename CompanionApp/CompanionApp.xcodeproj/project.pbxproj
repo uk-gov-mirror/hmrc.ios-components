@@ -533,7 +533,7 @@
 				DEVELOPMENT_TEAM = 4LL5YKZZU7;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4LL5YKZZU7;
 				INFOPLIST_FILE = CompanionApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -557,7 +557,7 @@
 				DEVELOPMENT_TEAM = 4LL5YKZZU7;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4LL5YKZZU7;
 				INFOPLIST_FILE = CompanionApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -650,8 +650,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hmrc/ios-components.git";
 			requirement = {
-				kind = revision;
-				revision = ab9c4b98217d06dcce8988b9a3c989f90f82f3a4;
+				branch = "HMA-10881-Accessibility-enhancements-Modify-component-library";
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
